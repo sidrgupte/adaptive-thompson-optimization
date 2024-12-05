@@ -1,6 +1,9 @@
 import numpy as np
 import random, math
 
+def flip_coin(q):
+    return "H" if random.random() < q else "T"
+
 def constant_q_simulation(n_rounds, epsilon, q):
     N_H, N_T = 0, 0
     Q_H, Q_T = 0.0, 0.0
