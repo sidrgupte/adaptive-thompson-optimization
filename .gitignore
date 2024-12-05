@@ -1,0 +1,13 @@
+# Byte-compiled / Python-specific
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.DS_Store
+
+# Output files (e.g., results, plots)
+results/
