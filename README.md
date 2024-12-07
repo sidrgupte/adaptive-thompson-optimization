@@ -36,7 +36,6 @@ This project explores the use of **Thompson Sampling** for adaptive optimization
 2. Ensure you have the required Python libraries installed
 ```bash
 pip install numpy matplotlib
-
 3. Create a parameter file (`params.txt`) in the root directory with the following format:
 ```plaintext
 M=200
@@ -46,7 +45,6 @@ NUM_REFINEMENT=5
 THOMPSON_LOOP_LEN=1000
 refinement_type=1
 func=2
-
 4. Run the script
 ```bash
 python code/thompson_optimizer.py --param_file params.txt
