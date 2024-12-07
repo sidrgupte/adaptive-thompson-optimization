@@ -81,6 +81,4 @@ This project explores the use of **Thompson Sampling** for adaptive optimization
 - Plots of the noisy function and final refined intervals are saved to `results/plots/` as:
   ```plaintext
   function_maximization1.png
-  
-  ```plaintext
   function_maximization2.png
